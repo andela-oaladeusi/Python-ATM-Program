@@ -2,7 +2,7 @@
 # Created by Seroney on 02-Dec-16 10:23 AM
 
 from login import log_in
-from transaction_mgt import validate_deposit_transaction,validate_withdrawal_transaction
+from transaction_mgt import validate_deposit_transaction, validate_withdrawal_transaction
 
 
 # Start menu Functions

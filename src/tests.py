@@ -3,7 +3,7 @@
 import pytest
 import mock
 from login import log_in, validate_pin
-from transaction_mgt import deposit,withdrawal,validate_withdrawal_transaction,validate_deposit_transaction
+from transaction_mgt import deposit, withdrawal, validate_withdrawal_transaction, validate_deposit_transaction
 
 
 ips = 'builtins.input'
@@ -21,11 +21,11 @@ def test_validate_pin_fail():
     assert validate_pin(pin) == False
 
 
-# def test_login_pass():
-#     with mock.patch(ips, return_value='2425'):
-#         assert log_in(), True
-#
-#
+def test_login_pass():
+    with mock.patch(ips, return_value='2425'):
+        assert log_in(), True
+
+
 def test_login_fail():
     with mock.patch(ips, return_value='2423'):
         assert log_in() != True

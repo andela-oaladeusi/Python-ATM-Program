@@ -1,7 +1,7 @@
 # TalaAtm
 # Created by Seroney on 02-Dec-16 12:27 PM
 
-from settings import *
+from settings import deposit_params, withdrawal_params
 
 
 # Deposit function
