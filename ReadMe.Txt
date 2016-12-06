@@ -1,5 +1,11 @@
-# Environment: Python 3.4 +, pytest
+# Environment: Python 3.4 +, pytest, Mock
 # Coding Standard PEP8
+
+# Simple ATM Program
+Supports Login, Deposits and Withdrawal.
+Unit tests to show how to test using Pytest - Awesome for beginners in python and unit testing
+Dictionaries to be used to store data.
+
 
 # Files included are
 1. Main.py - Runs the entire application
@@ -21,5 +27,6 @@ pytest ../saved_folder/TalaAtm/src/tests.py
 
 pytest --cov=test.py .
 
+Incase of any queries, reach me on mseroney88@gmail.com
 
 
